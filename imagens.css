@@ -1,0 +1,248 @@
+      .titulo-com-imagem {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px; 
+}
+
+.titulo-com-imagem img.icone {
+  width: 70px; 
+  height: auto;
+}
+.conteudo-com-imagem {
+  list-style: none; 
+  padding: 0;
+}
+
+.conteudo-com-imagem li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.conteudo-com-imagem li img.icone {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.conteudo-com-imagem-lupa {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  margin: 10px 0;
+}
+
+.conteudo-com-imagem-lupa .icone.lupa {
+  width: 50px; 
+  height: 50px;
+}
+
+.conteudo-com-imagem-coração {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  max-width: 800px;
+  margin: 20px 0;
+}
+
+.conteudo-com-imagem-coração h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+ 
+}
+
+.conteudo-com-imagem-coração .icone.coração {
+  width: 70px;
+  height: 70px;
+}
+
+.titulo-com-imagem-pergunta {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  margin: 20px 0;
+}
+
+.titulo-com-imagem-pergunta h2 {
+  margin: 0;
+  font-size: 24px;
+  
+}
+
+.titulo-com-imagem-pergunta .icone-pergunta {
+  width: 75px;  
+  height: 75px;
+}
+
+.conteudo-com-imagem-relacao-sexual {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin: 20px 0;
+  max-width: 900px;
+}
+
+.conteudo-com-imagem-relacao-sexual .icone.relação-sexual {
+  width: 50px;
+  height: 50px;
+  
+}
+
+.titulo-com-imagem-camisinha {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  margin: 20px 0;
+}
+.titulo-com-imagem-camisinha h2 {
+  margin: 0;
+  font-size: 24px;
+  
+}
+.titulo-com-imagem-camisinha .icone-camis {
+  width: 70px; 
+  height: 70px;
+}
+
+.titulo-com-imagem-anticoncepcional {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  margin: 20px 0;
+}
+.titulo-com-imagem-anticoncepcional h2 {
+  margin: 0;
+  font-size: 24px;
+  
+}
+.titulo-com-imagem-anticoncepcional .icone-anticon {
+  width: 70px; 
+  height: 70px;
+}
+.titulo-com-imagem-doenças {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  margin: 20px 0;
+}
+.titulo-com-imagem-doenças h2 {
+  margin: 0;
+  font-size: 24px;
+  
+}
+.titulo-com-imagem-doenças .icone-doenças {
+  width: 70px; 
+  height: 70px;
+}
+.titulo-com-imagem-vacina {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  margin: 20px 0;
+}
+.titulo-com-imagem-vacina h2 {
+  margin: 0;
+  font-size: 24px;
+  
+}
+.titulo-com-imagem-vacina .icone-vacina {
+  width: 70px; 
+  height: 70px;
+}
+.titulo-com-imagem-relação {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  margin: 20px 0;
+}
+.titulo-com-imagem-relação h2 {
+  margin: 0;
+  font-size: 24px;
+  
+}
+.titulo-com-imagem-relação .icone-relação {
+  width: 70px; 
+  height: 70px;
+}
+
+
+.conteudo-com-imagem-corpo {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+
+.conteudo-com-imagem-corpo li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.conteudo-com-imagem-corpo li img {
+  width: 70px;
+  height: 70px;
+  
+}
+
+.titulo-com-imagem-menina {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  margin: 20px 0;
+}
+.titulo-com-imagem-menina h2 {
+  margin: 0;
+  font-size: 24px;
+  
+}
+.titulo-com-imagem-menina .icone-menina {
+  width: 70px; 
+  height: 70px;
+}
+.titulo-com-imagem-humor {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  margin: 20px 0;
+}
+.titulo-com-imagem-humor h2 {
+  margin: 0;
+  font-size: 24px;
+  
+}
+.titulo-com-imagem-humor .icone-humor {
+  width: 70px; 
+  height: 70px;
+}
+.conteudo-com-imagem-tempo {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  margin: 20px 0;
+}
+.conteudo-com-imagem-tempo img.icone-tempo {
+  width: 70px; 
+  height: 70px;
+}
+.conteudo-com-imagem-menino {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+.conteudo-com-imagem-menino li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+.conteudo-com-imagem-menino li img {
+  width: 50px;
+  height: 50px;
+}

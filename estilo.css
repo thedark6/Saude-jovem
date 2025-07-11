@@ -197,14 +197,4 @@ nav#menu li:nth-child(3) a:hover{
         transform: rotateX(0deg);
       }
 
-      .titulo-com-imagem {
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
-  gap: 10px; 
-}
-
-.titulo-com-imagem img.icone {
-  width: 70px; 
-  height: auto;
-}
+ 
