@@ -231,8 +231,8 @@
 }
 .conteudo-com-imagem-menino {
   list-style: none; 
-  padding: 0;
-  margin: 0;
+  padding: auto;
+  margin: auto;
 }
 .conteudo-com-imagem-menino li {
   display: flex;
@@ -245,4 +245,54 @@
 .conteudo-com-imagem-menino li img {
   width: 50px;
   height: 50px;
+}
+.conteudo-com-imagem-saude-mental {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  margin: 20px 0;
+}
+.conteudo-com-imagem-saude-mental img.icone.saude-mental {
+  width: 70px; 
+  height: 70px;
+}
+.titulo-com-imagem-ansiedade {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  margin: 20px 0;
+}
+.titulo-com-imagem-ansiedade img.icone-ansiedade {
+  width: 70px; 
+  height: 70px;
+}
+.titulo-com-imagem-depressão {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  margin: 20px 0;
+}
+.titulo-com-imagem-depressão img.icone-depressão {
+  width: 60px; 
+  height: 60px;
+}
+.titulo-com-imagem-ajuda {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  margin: 20px 0;
+}
+.titulo-com-imagem-ajuda img.icone-ajuda {
+  width: 70px; 
+  height: 60px;
+}
+.titulo-com-imagem-apoio {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  margin: 20px 0;
+}
+.titulo-com-imagem-apoio img.icone-apoio {
+  width: 70px; 
+  height: 70px;
 }

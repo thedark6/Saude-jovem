@@ -134,6 +134,35 @@ nav#menu li:nth-child(3) a:hover{
       header h1 {
         font-size: 1.5em;
       }
+      .conteudo-com-imagem-menino {
+  list-style: none;
+  padding: 0;
+}
+
+.conteudo-com-imagem-menino li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.icone-menino {
+  width: 40px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+  .conteudo-com-imagem-menino li {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .icone-menino {
+    width: 30px;
+  }
+}
     }
   footer{
             background-color: var(#A2d2ff);
