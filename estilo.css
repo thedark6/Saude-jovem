@@ -193,7 +193,8 @@ body {
 
 
     a {
-      color: #f5f5dc;
+      color: rgb(0, 0, 139);
+      
       text-decoration: none;
     }
 
