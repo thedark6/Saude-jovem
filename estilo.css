@@ -362,12 +362,12 @@ nav#menu li:nth-child(3) a:hover{
         transition: transform 0.5s ease-in-out;
        } 
        .font{
-             banckgroud: rgb(0, 0, 139);
+             banckgroud:#f5f5dc;
         font-size: 25px;
 
        }
        .back{
-        background: rgb(0, 0, 139);
+        background: #f5f5dc;
         font-size: 15px;
         transform: rotateX(180deg);
         backface-visibility: hidden;
