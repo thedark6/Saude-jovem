@@ -16,6 +16,106 @@ body {
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
         }
+     h1.cor-laranja {
+      color: #e67730;
+      margin-top: 0;
+     }
+     h2.cor-laranja {
+      color: #e67730;
+      margin-top: 0;
+      font-weight: bold;
+    }
+    h3.cor-laranja {
+      color: #e67730;
+      margin-top: 0;
+      font-weight: bold;
+    }
+    footer.cor-laranja {
+      color: #e67730;
+      padding: 15px;
+      text-align: center;
+      font-size: 14px;
+    }
+      h1.cor-inicial{
+      color:rgb(0, 0, 139);
+      margin-top: 0;
+
+      }
+      h2.cor-inicial {
+      color: rgb(0, 0, 139);
+
+    }
+    strong.cor-inicial {
+      color: rgb(0, 0, 139);
+    }
+    h1.cor-azul {
+      color:#38a99f;
+      margin-top: 0;
+    }
+    h2.cor-azul {
+      color: #38a99f;
+      margin-top: 0;
+      font-weight: bold;
+    }
+    
+    h1.cor-roxo {
+      color: #5746b7;
+      margin-top: 0;
+    }
+    h2.cor-roxo {
+      color: #5746b7;
+      margin-top: 0;
+      font-weight: bold;
+    }
+    h3.cor-roxo {
+      color: #5746b7;
+      margin-top: 0;
+      font-weight: bold;
+    }
+    footer.cor-roxo {
+      color: #5746b7;
+      padding: 15px;
+      text-align: center;
+      font-size: 14px;
+    }
+    h1.cor-menino{
+      color: #38a99f;
+      margin-top: 0;
+    }
+    h2.cor-menino{
+      color: #38a99f;
+      margin-top: 0;
+      font-weight: bold;
+    }
+    footer.cor-menino {
+      color: #38a99f;
+      padding: 15px;
+      text-align: center;
+      font-size: 14px;
+    }
+    h1.cor-menina{
+      color:#c64052;
+      margin-top: 0;
+    }
+    h2.cor-menina{
+      color: #c64052;
+      margin-top: 0;
+      font-weight: bold;
+    }
+    footer.cor-menina {
+      color: #c64052;
+      padding: 15px;
+      text-align: center;
+      font-size: 14px;
+    }
+    
+    strong.cor-menina {
+      color: #c64052;
+    }
+    strong.cor-menino {
+      color: #38a99f;
+    }
+    
     header h1 {
       text-align: center;
       margin: 0;
@@ -34,6 +134,21 @@ body {
       line-height: 1.6;
     }
    .botao-voltar {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 2px 3px;
+    border: none;
+    font-weight: bold;
+    float: right;                
+    top: 20px;            
+    right: 20px;          
+}
+.icone-voltar {
+  width: 90px;
+  height: 90px;
+  vertical-align: middle;
+}
+.botao-voltar2 {
     color: black;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -49,8 +164,7 @@ body {
     z-index: 1000;
     transition: transform 0.3s ease;
 }
-
-.botao-voltar:hover {
+.botao-voltar2:hover {
     transform: scale(1.05);
 }
     a {
@@ -60,6 +174,17 @@ body {
 
     a:hover {
       text-decoration: underline;
+    }
+    ul{
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      text-align: justify;
+    }
+    li{
+      list-style: none;
+      padding: 5px 0;
+      text-align: justify;
     }
 
     /* Menu */
@@ -108,7 +233,7 @@ nav#menu li:nth-child(2) a:hover {
 /* Saúde mental */
 
 nav#menu li:nth-child(3) a:hover{
-    background-color: #5746b7;
+    background-color: #5746b7;
 }
 
 
@@ -134,6 +259,7 @@ nav#menu li:nth-child(3) a:hover{
       header h1 {
         font-size: 1.5em;
       }
+      
       .conteudo-com-imagem-menino {
   list-style: none;
   padding: 0;
