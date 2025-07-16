@@ -341,7 +341,8 @@ nav#menu li:nth-child(3) a:hover{
           height: 70px;
           line-height: 70px;
           margin: 0.5rem;
-          /*color:#ecf0f1;*/
+          /*color: rgb(0, 0, 139);*/
+     
           border-radius: 15px;
           transform-style: preserve-3d;
           text-align: center;
