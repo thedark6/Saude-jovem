@@ -193,8 +193,7 @@ body {
 
 
     a {
-      color: rgb(0, 0, 139);
-      
+      color: #f5f5dc;
       text-decoration: none;
     }
 
@@ -334,7 +333,6 @@ nav#menu li:nth-child(3) a:hover{
             min-height: 10vh;
             perspective: 1000px;
             background:#f5f5dc;
-           
         }
         .card{
           position: relative;
@@ -342,8 +340,7 @@ nav#menu li:nth-child(3) a:hover{
           height: 70px;
           line-height: 70px;
           margin: 0.5rem;
-          /*color: rgb(0, 0, 139);*/
-     
+          /*color:#ecf0f1;*/
           border-radius: 15px;
           transform-style: preserve-3d;
           text-align: center;
@@ -362,12 +359,12 @@ nav#menu li:nth-child(3) a:hover{
         transition: transform 0.5s ease-in-out;
        } 
        .font{
-             banckgroud:#f5f5dc;
+        background: rgb(136, 228, 244);
         font-size: 25px;
 
        }
        .back{
-        background: #f5f5dc;
+        background: rgb(136, 228, 244);
         font-size: 15px;
         transform: rotateX(180deg);
         backface-visibility: hidden;
