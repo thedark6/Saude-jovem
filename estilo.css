@@ -316,7 +316,7 @@ nav#menu li:nth-child(3) a:hover{
 }
     }
   footer{
-            background-color: var(#A2d2ff);
+            background-color: var( rgb(0, 0, 139));
             color: black;
             text-align: center;
             padding: 15px;
@@ -340,7 +340,7 @@ nav#menu li:nth-child(3) a:hover{
           height: 70px;
           line-height: 70px;
           margin: 0.5rem;
-          /*color:#ecf0f1;*/
+          /*color:rgb(0, 0, 139;*/
           border-radius: 15px;
           transform-style: preserve-3d;
           text-align: center;
@@ -359,12 +359,12 @@ nav#menu li:nth-child(3) a:hover{
         transition: transform 0.5s ease-in-out;
        } 
        .font{
-        background: rgb(136, 228, 244);
+        background: rgb(0, 0, 139);
         font-size: 25px;
 
        }
        .back{
-        background: rgb(136, 228, 244);
+        background: rgb(0, 0, 139);
         font-size: 15px;
         transform: rotateX(180deg);
         backface-visibility: hidden;
