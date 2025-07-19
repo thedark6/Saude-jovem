@@ -211,6 +211,15 @@ body {
       text-align: center;
       font-size: 14px;
     }
+     @media (max-width: 600px) {
+  .botao-voltar-menino {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    margin: 0;
+  }
+}
     h1.cor-menino{
       color: #38a99f;
       margin-top: 0;
@@ -226,6 +235,15 @@ body {
       text-align: center;
       font-size: 14px;
     }
+        @media (max-width: 600px) {
+  .botao-voltar-menina {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    margin: 0;
+  }
+}
     h1.cor-menina{
       color:#c64052;
       margin-top: 0;
