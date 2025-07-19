@@ -296,3 +296,58 @@
   width: 70px; 
   height: 70px;
 }
+
+.titulo-com-imagem {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px; 
+}
+
+.titulo-com-imagem img.icone {
+  width: 70px; 
+  height: auto;
+}
+.conteudo-com-imagem-menina {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  margin: 20px 0;
+}
+.conteudo-com-imagem-menina img.icone-sangue {
+  width: 70px; 
+  height: 70px;
+}
+.conteudo-com-imagem-orgao {
+  display: flex;
+    align-items: center;
+    gap: 10px;
+ margin: 20px 0;
+    }
+.conteudo-com-imagem-orgao img.icone-orgao {
+  width: 70px;
+    height: 70px;
+}
+.titulo-com-imagem-limpeza {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ margin: 20px 0;
+}
+.titulo-com-imagem-limpeza img.icone-limpeza {
+    width: 70px;
+    height: 70px;
+}
+.conteudo-com-imagem-clico {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;}
+    
+ .icone-clico-menstrual {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+ }
