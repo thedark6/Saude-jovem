@@ -16,6 +16,7 @@ body {
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
         }
+        
         .botao-voltar-cor-laranja {
            display: inline-flex;
     align-items: center;
@@ -244,6 +245,10 @@ body {
     margin: 0;
   }
 }
+   strong.cor-azul{
+     color:#38a99f;
+     
+   }
     h1.cor-menina{
       color:#c64052;
       margin-top: 0;
