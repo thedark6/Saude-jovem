@@ -82,6 +82,10 @@ body {
       text-align: center;
       font-size: 14px;
     }
+    strong.cor-laranja{
+      color: #e67730;
+      
+    }
       h1.cor-inicial{
       color:rgb(0, 0, 139);
       margin-top: 0;
