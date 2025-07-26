@@ -4,7 +4,7 @@
   padding-bottom: 56.25%; /* Proporção 16:9 */
   height: 0;
   overflow: hidden;
-  max-width: 70%; /* 👈 vídeo agora ocupa no máximo 70% da largura da tela */
+  max-width: 75%; /* 👈 vídeo agora ocupa no máximo 70% da largura da tela */
   margin: 0 auto; /* centraliza na página */
   background: #000; /* fundo preto enquanto carrega */
   border-radius: 10px; /* cantos arredondados (opcional) */
@@ -22,10 +22,10 @@
 
 .video-containerr {
   position: relative;
-  padding-bottom: 40%; /* mantém proporção 16:9 */
+  padding-bottom: 50%; /* mantém proporção 16:9 */
   height: 0;
   overflow: hidden;
-  max-width: 50%; /* 👈 vídeo agora ocupa no máximo 50% da largura */
+  max-width: 70%; /* 👈 vídeo agora ocupa no máximo 50% da largura */
   margin: 20px auto; /* centraliza */
   background: #000;
   border-radius: 10px; /* opcional */
@@ -38,4 +38,42 @@
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+.playlist-depressao {
+    background: #f0e6ff; /* lilás claro */
+    border: 2px solid #b77cff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 25px auto;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.playlist-depressao h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.playlist-depressao p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.botao-playlist {
+    display: inline-block;
+    background: #7b2cbf;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.botao-playlist:hover {
+    background: #5a189a;
+    transform: scale(1.05);
 }
